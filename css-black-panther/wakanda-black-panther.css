@@ -1,6 +1,7 @@
 /*importing the same styles*/
 @import "/css-black-panther/libs/variable.css";
 @import "/css-black-panther/libs/fonts.css";
+@import "/css-black-panther/libs/footer.css";
 
 body{
     background:url('/Illustrations/Allpages/arrière_plan.png');

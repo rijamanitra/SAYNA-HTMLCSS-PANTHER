@@ -10,6 +10,8 @@
     justify-content: center;
 }
 
+
+
 .footer1{
     position: relative;
 }
@@ -26,4 +28,9 @@
 }
 .footer3{
     padding-right: 10%;
+}
+
+
+.footer5{
+    padding-right: 50%;
 }
