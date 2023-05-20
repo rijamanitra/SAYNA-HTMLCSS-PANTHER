@@ -1,7 +1,7 @@
 /*importing the same styles*/
 @import "/css-black-panther/libs/variable.css";
 @import "/css-black-panther/libs/fonts.css";
-
+@import "/css-black-panther/libs/footer.css";
 body{
     background:url('/Illustrations/Allpages/arrière_plan.png');
     background-size: cover;background-repeat: no-repeat;} 
@@ -23,6 +23,8 @@ body{
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    text-decoration: none;
+    color: white;
  } 
 
 
@@ -41,8 +43,11 @@ body{
     font-size: 250%;
  }
 
+ 
+ 
+
  .textsection1{
-    padding: 010%  5% 08% 55%;
+    padding: 010%  5% 08% 60%;
     text-align: justify;
     background: url(/Illustrations/Enigme/Pantherenigme2.png);
     background-repeat: no-repeat;
@@ -56,4 +61,52 @@ body{
  }
 
 
- 
+ .section2{
+   margin: 10% 0% 10% 10%;
+ }
+
+ .section2 h2{
+   margin-bottom: 10%;
+   margin-right: 30%;
+ }
+
+ .section2 p{
+   margin-bottom: 2%;
+ }
+
+ .traduction{
+   margin: 5% 50% 0% 0%;
+   color: white;
+ }
+
+ .lesavaistu{
+   margin-left: 20%;
+   margin-top: -10%;
+   text-align: center;
+   margin-right: 10%;
+   padding-bottom: 20%;
+   padding-top: 20%;
+   padding-left: 05%;
+   background:url(/Illustrations/Enigme/Pantherenigme2.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+  
+ }
+
+ #rep{
+   border: 1px solid var(--blancfonce);
+   padding: 0.5% 5% 0.5% 2%;
+   border-radius: 20px;
+   background-color: transparent;
+   margin-bottom: 5%;
+ }
+
+ #envoyer{
+   border: 1px solid var(--blancfonce);
+   border-radius: 20px;
+   background-color: var(--blancfonce);
+   padding: 1% 2% ;
+   margin-left: 5%;
+ }
+
