@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: georgian ;
+    /* putting the image background for the body page */
+}
+
+
+:root{
+   --blue-color:#07338c;
+   --violet-color:#3d2da6;
+   --bleufonce:#021740;
+   --blancfonce:#f2cef2;
+   --grisfonce:#9e91b7;
+   --rosefonce:#df99f2;
+
+}
+
+@font-face {
+  font-family:'panthera' ;
+  src: url('/fonts/PantheraRegular-MVZ9J.ttf');
+}
+
+h1{
+  font-family:'panthera';
+  font-weight: normal;
+  font-size:68px; 
+  color:var(--blancfonce);
+}
+
+
+
+@font-face{
+   font-family: 'beyno';
+   src: url('/fonts/FontsFree-Net-BEYNO.ttf');
+   
+}
+
+h2{
+  font-family: 'beyno';
+  color: var(--grisfonce);
+  font-weight: normal;
+}
+
+
+
+@font-face {
+  font-family: 'cantarell';
+  src: url('/fonts/Cantarell-Regular.ttf');
+}
+
+p{
+  font-family:'cantarell';
+  font-size:16px; 
+  color:white;
+}
+footer{
+  font-family:'cantarell';
+  font-size:10px; 
+  color:white;
+}
+
+font-face{
+   
+  font-family: 'wakanda4ever';
+  src: url('fonts/Wakanda4Ever-gxg5p.ttf');
+}
+
+body{
+    background:url('/Illustrations/Allpages/arrière_plan.png');
+    background-size: cover;background-repeat: no-repeat;} 
+
+.conteneurheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 05% 0% 05% 05%; 
+    gap: 9rem;}
+
+
+.conteneurimageheader{
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row; }
+
+ .conteneurmenuheader{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+ } 
+
+ .section1{
+        background: url("/Illustrations/Wakanda/Pantherwakanda1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+       
+         } 
+ 
+         .section2{
+            display: flex;flex-direction: row;gap: 2rem;text-align: justify;padding-top: 5%;margin-left: 5%;margin-right: 10%;
+         }

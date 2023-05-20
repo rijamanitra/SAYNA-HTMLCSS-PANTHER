@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: georgian ;
+    /* putting the image background for the body page */
+}
+
+
+:root{
+   --blue-color:#07338c;
+   --violet-color:#3d2da6;
+   --bleufonce:#021740;
+   --blancfonce:#f2cef2;
+   --grisfonce:#9e91b7;
+   --rosefonce:#df99f2;
+
+}
+
+@font-face {
+  font-family:'panthera' ;
+  src: url('/fonts/PantheraRegular-MVZ9J.ttf');
+}
+
+h1{
+  font-family:'panthera';
+  font-weight: normal;
+  font-size:68px; 
+  color:var(--blancfonce);
+}
+
+
+
+@font-face{
+   font-family: 'beyno';
+   src: url('/fonts/FontsFree-Net-BEYNO.ttf');
+   
+}
+
+h2{
+  font-family: 'beyno';
+  color: var(--grisfonce);
+  font-weight: normal;
+}
+
+
+
+@font-face {
+  font-family: 'cantarell';
+  src: url('/fonts/Cantarell-Regular.ttf');
+}
+
+p{
+  font-family:'cantarell';
+  font-size:16px; 
+  color:white;
+}
+footer{
+  font-family:'cantarell';
+  font-size:10px; 
+  color:white;
+}
+
+font-face{
+   
+  font-family: 'wakanda4ever';
+  src: url('fonts/Wakanda4Ever-gxg5p.ttf');
+}
+
+
+body{
+  background:url('/Illustrations/Allpages/arrière_plan.png');
+  background-size: cover;background-repeat: no-repeat;} 
+
+/*scroll*/
+.lines{
+    position: fixed;
+    top: 0;
+    display: flex;
+    gap: 1rem;
+    margin-left: 30px;
+}
+.line1{
+    width: 3px;
+    height: 375px;
+    background-color: var(--grisfonce);
+}
+.line3{
+    width: 3px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: var(--grisfonce);
+}
+.social img{
+    margin: 10px 0;
+    transition: .s all ease-in-out
+}
+.social img:hover{
+    filter: brightness(0) invert(1);
+}
+/* setting flex mode on the header */
+
+.conteneurheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 05% 0% 05% 05%; 
+    gap: 9rem;}
+
+
+.conteneurimageheader{
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row; }
+
+ .conteneurmenuheader{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+ } 
+
+ .section1{
+   background: url("/Illustrations/Accueil/Pantherhome1..png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 90vh;
+   background-position: 150% 0% ;
+   background-size: 70%;
+   
+ }
+
+ .section1 h1{
+   padding: 05% 0% 01% 08%;
+ }
+
+ .section1 h2{
+   padding: 0% 0% 01% 08%;
+ }
+ 
+ .section1 .description{
+   padding: 0% 55% 01% 08%;
+ }
+/*SECTION 2*/
+.bgbleu{
+  background-color: var(--bleufonce);
+  display: flex;
+  height: 50vh;
+}
+.killmonger, .okoye{
+  display: flex;
+}
+.portrait-buste img{
+  height: 100%;
+}
+ .conteneursection2{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--bleufonce);
+  
+}
+.section2.1{
+  display: flex;
+  flex-direction: column;
+}
+
+ .section3{
+   display: flex;
+   flex-direction: row;
+   margin: 0% 0% 0% 10% ;
+ }
+   
+ .conteneursection3gauche{
+   text-align:justify;
+   margin: 0% 5% 0% 0% ;
+   padding:  0% 0% 0% 05%;
+   width: 60%;
+ }
+
+ 
+
+ .conteneursection3droite{
+   padding:  0% 5% 0% 0%;
+   width: 50%;
+ }
+ .photoblackpanther img{
+   width: 20%;
+   position: absolute;
+   left: 67%;
+   top: 190%;
+   
+ }
+
+ .decosec3{
+  width: 80%;
+  margin: 60% 40% 20% 10%;
+ }
+  
+ 
+
+
+ .contentsection3droite{
+   background-color: white;
+   width: 80%;height:30%;
+   margin: 90% 0% 0% 5% ;
+   padding:30% 0% 0% 0%  ;   
+ }
+
+ .contentsection3droite h3{
+  text-align: center;
+  margin-bottom: 3%;
+ }
+
+ .contentsection3droite h4{
+  font-size: 14px;text-align: justify;
+ }
+ .conteneurbutton{
+  display: flex;
+  gap:1rem;
+  margin-left: 3%;
+  margin-bottom: 2%;
+ } 
+
+ .conteneurbutton a{
+  text-decoration: none;
+  color: white;
+  background: var(--violet-color);
+  padding: 1% 1% 1% 1%;
+ }
+
+ .section4{background: url(/Illustrations/Accueil/Pantherhome7.png);
+  background-size: cover;background-repeat: no-repeat;
+  width: 100%;padding-bottom: 10%;
+
+  
+
+ }
+
+ .conteneurcontact{
+  background: linear-gradient(to bottom,white,transparent);
+  width: 50%;border-radius :100px ;
+  margin-top: 10%;
+  margin-left: 20%;
+ padding-bottom: 15%;text-align: center;
+ }
+
+ .conteneurcontact input{
+  background: none;border-radius: 40px;
+  margin: 1% 0;padding-left: 25%;
+ }
+
+ .conteneurcontact textarea{
+  background: none;border-radius: 20px;
+ }
+
+ .conteneurfooter{
+  background: url(/Illustrations/Allpages/back_footer.png);
+  background-size: cover;background-repeat: no-repeat;
+  padding-top: 30%;margin-top: 10%;height: ;
+ }
+
