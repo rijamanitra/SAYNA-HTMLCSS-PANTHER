@@ -1,7 +1,7 @@
 /*importing the same styles*/
 @import "/css-black-panther/libs/variable.css";
 @import "/css-black-panther/libs/fonts.css";
-
+@import "/css-black-panther/libs/footer.css";
 
 body{
   background:url('/Illustrations/Allpages/arrière_plan.png');
@@ -129,10 +129,6 @@ body{
   width: 80%;
   margin: 60% 40% 20% 10%;
  }
-  
- 
-
-
  .contentsection3droite{
    background-color: white;
    width: 80%;height:30%;
@@ -172,24 +168,52 @@ body{
 
  .conteneurcontact{
   background: linear-gradient(to bottom,white,transparent);
-  width: 50%;border-radius :100px ;
+  width: 50%;
+  border-radius :100px ;
   margin-top: 10%;
   margin-left: 20%;
- padding-bottom: 15%;text-align: center;
+  padding: 5% 10%;
  }
 
- .conteneurcontact input{
-  background: none;border-radius: 40px;
-  margin: 1% 0;padding-left: 25%;
+ input, textarea{
+  background: none;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 2%;
+  border: 1px solid var(--bleufonce);
+  width: 100%;
  }
-
+ ::placeholder{
+  color: var(--bleufonce);
+ }
+  /*specific fonts formulaire*/
+  .form1{
+    color: var(--bleufonce);
+    text-align: center;
+    font-size: .8em;
+  }
+  .form2{
+    color: var(--bleufonce);
+    text-align: center;
+    font-size: 2.5em;
+  }
+    /*now the buttons*/
+    .envoyer{
+      text-align: center;
+      margin-top: 5%;
+    }
+    .envoyer a{
+      color: var(--bleufonce);
+      text-decoration: none;
+      background-color: var(--blancfonce);
+      padding: 2% 5%;
+      border-radius: 28px;
+      transition: .25s all ease-in-out;
+    }
+    .envoyer a:hover{
+      filter: drop-shadow(0 0 10px var(--bleufonce));
+    }
  .conteneurcontact textarea{
   background: none;border-radius: 20px;
- }
-
- .conteneurfooter{
-  background: url(/Illustrations/Allpages/back_footer.png);
-  background-size: cover;background-repeat: no-repeat;
-  padding-top: 30%;margin-top: 10%;height: ;
  }
 

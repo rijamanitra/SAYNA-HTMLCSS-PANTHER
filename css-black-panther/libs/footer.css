@@ -1,0 +1,29 @@
+/*external footer style*/
+.conteneurfooter{
+    background: url('/Illustrations/Allpages/back_footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    padding: 10% 10% 3% 10%;
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+
+.footer1{
+    position: relative;
+}
+.footer2{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -45%);
+}
+
+/*left part*/
+.conteneurfooterl1{
+    display: flex;
+}
+.footer3{
+    padding-right: 10%;
+}
