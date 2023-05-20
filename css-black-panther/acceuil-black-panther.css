@@ -93,7 +93,7 @@ body{
 }
 .social img{
     margin: 10px 0;
-    transition: .s all ease-in-out
+    transition: .5s all ease-in-out
 }
 .social img:hover{
     filter: brightness(0) invert(1);
