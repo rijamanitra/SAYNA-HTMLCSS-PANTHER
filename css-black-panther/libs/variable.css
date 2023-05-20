@@ -6,6 +6,9 @@
     list-style: georgian ;
     /* putting the image background for the body page */
 }
+*:focus{
+    outline: none;
+}
 
 
 :root{
@@ -15,5 +18,4 @@
    --blancfonce:#f2cef2;
    --grisfonce:#9e91b7;
    --rosefonce:#df99f2;
-
 }
