@@ -26,13 +26,23 @@ body{
  } 
 
  .section1{
-        background: url("/Illustrations/Wakanda/Pantherwakanda1.png");
+        background: url("/Illustrations/Wakanda/Pantherrwakanda1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 90vh;
-       
-         } 
- 
-         .section2{
-            display: flex;flex-direction: row;gap: 2rem;text-align: justify;padding-top: 5%;margin-left: 5%;margin-right: 10%;
+        height: 100vh; } 
+ .section1 h1{
+  padding:5% 0 2% 5% ;
+ }
+ .section1 span{
+  padding:0% 0 5% 5% ;
+  
+ }
+ .section1 p{
+  padding:3% 0 5% 5% ;
+  width: 40%;
+  text-align: justify;
+ }
+
+  .section2{
+   display: flex;flex-direction: row;gap: 2rem;text-align: justify;padding-top: 5%;margin-left: 5%;margin-right: 10%;
          }
