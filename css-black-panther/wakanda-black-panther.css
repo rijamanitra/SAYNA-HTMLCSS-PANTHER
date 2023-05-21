@@ -3,17 +3,27 @@
 @import "/css-black-panther/libs/fonts.css";
 @import "/css-black-panther/libs/footer.css";
 @import "/css-black-panther/libs/header.css";
+
+
+ /* violet color menu when we are in the page    */
+#wakanda{
+  color: violet;
+}
+
+/* setting the cover blue dark body    */
 body{
     background:url('/Illustrations/Allpages/arrière_plan.png');
     background-size: cover;background-repeat: no-repeat;} 
 
-
+/* setting the picture cover in section 1   */
 
  .section1{
         background: url("/Illustrations/Wakanda/Pantherrwakanda1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh; } 
+
+        /* setting the cover blue dark body    */
  .section1 h1{
   padding:5% 0 2% 5% ;
  }

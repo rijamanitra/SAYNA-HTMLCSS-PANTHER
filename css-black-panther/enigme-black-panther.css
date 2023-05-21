@@ -7,7 +7,9 @@ body{
     background:url('/Illustrations/Allpages/arrière_plan.png');
     background-size: cover;background-repeat: no-repeat;} 
 
-
+    #enigme{
+      color: violet;
+    }
 
  .section1{
     background: url(/Illustrations/Enigme/Pantherenigme1.png);
