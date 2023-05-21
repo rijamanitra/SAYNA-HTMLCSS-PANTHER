@@ -45,5 +45,29 @@ body{
  }
 
   .section2{
-   display: flex;flex-direction: row;gap: 2rem;text-align: justify;padding-top: 5%;margin-left: 5%;margin-right: 10%;
+   display: flex;flex-direction: row;gap: 2rem;text-align: justify;padding-top: 0%;margin-left: 5%;margin-right: 10%;
          }
+
+
+  #image1sec2{
+    position: absolute;width: 90%;
+  }       
+
+  .section2left{
+    margin-top: 10%;
+   
+  }
+
+  .section2right{
+    margin-top: 10%;
+    width: 50%;
+    
+    
+  }
+
+  h3{
+    font-family: 'beyno';
+  color: var(--grisfonce);
+  font-weight: normal;
+  padding: 5% 0;
+  }
