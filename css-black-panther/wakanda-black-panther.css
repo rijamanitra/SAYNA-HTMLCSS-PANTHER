@@ -2,29 +2,12 @@
 @import "/css-black-panther/libs/variable.css";
 @import "/css-black-panther/libs/fonts.css";
 @import "/css-black-panther/libs/footer.css";
-
+@import "/css-black-panther/libs/header.css";
 body{
     background:url('/Illustrations/Allpages/arrière_plan.png');
     background-size: cover;background-repeat: no-repeat;} 
 
-.conteneurheader{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 05% 0% 05% 05%; 
-    gap: 9rem;}
 
-
-.conteneurimageheader{
-    margin-right: 20%;
-    display: flex;
-    flex-direction: row; }
-
- .conteneurmenuheader{
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
- } 
 
  .section1{
         background: url("/Illustrations/Wakanda/Pantherrwakanda1.jpg");
