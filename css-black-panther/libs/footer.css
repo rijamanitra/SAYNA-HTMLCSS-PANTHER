@@ -1,36 +1,64 @@
 /*external footer style*/
-.conteneurfooter{
+footer{
     background: url('/Illustrations/Allpages/back_footer.png');
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 10%;
-    padding: 10% 10% 3% 10%;
-    display: flex;
-    gap: 30%;
-    justify-content: center;
 }
 
+.conteneurfooter{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    justify-content: center;
+    padding: 5% 0;
+    
+}
 
+.conteneurfooterdroite{
 
+}
+.decofootergauche{
+   ;
+}
 .footer1{
     position: relative;
+    text-align: center;
 }
+
+.footer1 img{
+    width: ;
+}
+
 .footer2{
-    position: absolute;
-    top: 45%;
-    left: 45%;
-    transform: translate(-45%, -45%);
-}
+    position: absolute;top: 45%;left: 35%;
 
-/*left part*/
+}
 .conteneurfooterl1{
-    display: flex;
-}
-.footer3{
-    padding-right: 10%;
+    display: flex;gap: 20%;
 }
 
+.conteneurfooterl1 h5{
+    letter-spacing: 22px;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
 
-.footer5{
-    padding-right: 50%;
+.footer5 img {
+    padding: 0 5%;
+    width: 18%;
+}
+
+.footer3 p{
+    padding-bottom: 10%;
+}
+.conteneurfooterl2 {
+    display: flex;flex-direction: row;
+    align-items: center;margin-top: 15%;
+}
+
+.point{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--grisfonce);
+    margin: 0% 5px;
 }
