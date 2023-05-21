@@ -60,3 +60,9 @@ span{
   font-size: 32px;
   color: var(--blancfonce);
 }
+
+.conteneurmenuheader a{
+  font-family: 'beyno';
+  color: var(--grisfonce);
+  font-weight: normal;
+}
