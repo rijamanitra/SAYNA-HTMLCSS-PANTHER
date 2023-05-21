@@ -23,3 +23,10 @@
     color: white;
     cursor: pointer;
  }
+
+ /* putting the highlight white when cursor is on the menu text     */
+ .conteneurmenuheader a:hover {
+   text-decoration: underline;
+   color:white;
+ }
+   
