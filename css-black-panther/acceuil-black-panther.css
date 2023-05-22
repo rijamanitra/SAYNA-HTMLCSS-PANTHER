@@ -3,20 +3,18 @@
 @import "/css-black-panther/libs/fonts.css";
 @import "/css-black-panther/libs/footer.css";
 @import "/css-black-panther/libs/header.css";
+@import "/css-black-panther/libs/animations.css";
+
 
 body{
   background:url('/Illustrations/Allpages/arrière_plan.png');
-  background-size: cover;background-repeat: no-repeat;} 
+  background-size: cover;background-repeat: no-repeat;
+  
+} 
 
 /*animation NOT YET DONE*/
-  @keyframes fade-in {
-    transform: translateX(-100%); }
-    to{ transform: scale(0%);}
-
-    img{
-      animation-name:fade-in;
-      animation-duration: 1s;
-    }
+  
+    
   
 
 /*scroll*/
