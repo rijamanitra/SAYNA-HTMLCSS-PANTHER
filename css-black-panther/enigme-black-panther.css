@@ -9,7 +9,9 @@
 
 body{
     background:url('/Illustrations/Allpages/arrière_plan.png');
-    background-size: cover;background-repeat: no-repeat;} 
+    background-size: cover;background-repeat: no-repeat;
+    overflow-x: hidden; /*this hide things out of the body page like big images 
+    so there will be no scroll in the bottom of the page*/} 
 
     #enigme{
       color: violet;
