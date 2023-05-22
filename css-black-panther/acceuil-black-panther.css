@@ -224,8 +224,22 @@ body{
       transition: .25s all ease-in-out;
     }
     .envoyer a:hover{
-      filter: drop-shadow(0 0 10px var(--bleufonce));
+      filter: drop-shadow(0 0 10px var(--blancfonce));
     }
+
+    .btn:hover,
+    .btn:focus {
+      animation: btn 1s;
+      box-shadow: 0 0 0 0.5em rgba(125, 8, 241, 0.56);
+      cursor: pointer;
+    }
+    
+    @keyframes btn {
+      0% { box-shadow: 0 0 0 0 var(--hover); }
+    }
+
+
+
  .conteneurcontact textarea{
   background: none;border-radius: 20px;
  }
@@ -236,3 +250,8 @@ body{
     display: block;
   }
 }
+
+
+
+
+/* i need more practice in order to master css and html!! another project will be welcomed!!! */

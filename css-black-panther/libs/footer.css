@@ -6,7 +6,7 @@ footer{
 }
 
 .conteneurfooter{
-    display: grid;
+    display: grid;               /* could'nt do it in flex mode so it s in grid bod. i'm wondering why? need answers from assessor*/
     grid-template-columns: 35% 65%;
     justify-content: center;
     padding: 5% 0;
@@ -55,6 +55,7 @@ footer{
     align-items: center;margin-top: 15%;
 }
 
+/*sitting  dots color separating the words at the of the footer */
 .point{
     width: 5px;
     height: 5px;
