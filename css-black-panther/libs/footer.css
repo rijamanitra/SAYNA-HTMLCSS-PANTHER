@@ -16,9 +16,14 @@ footer{
 .conteneurfooterdroite{
 
 }
-.decofootergauche{
-   ;
+.decofootergauche:hover{
+   transform: scale(110%);
 }
+
+.decofootergauche{
+    transition: 0.5s;
+}
+
 .footer1{
     position: relative;
     text-align: center;
