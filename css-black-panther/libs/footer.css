@@ -20,6 +20,10 @@ footer{
    transform: scale(110%);
 }
 
+.footer4 img:hover{
+    transform: scale(110%); 
+}
+
 .decofootergauche{
     transition: 0.5s;
 }
@@ -29,9 +33,7 @@ footer{
     text-align: center;
 }
 
-.footer1 img{
-    width: ;
-}
+
 
 .footer2{
     position: absolute;top: 45%;left: 35%;
