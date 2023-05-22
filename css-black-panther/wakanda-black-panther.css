@@ -18,7 +18,8 @@ body{
 /* setting the picture cover in section 1   */
 
  .section1{
-        background: url("/Illustrations/Wakanda/Pantherrwakanda1.jpg");
+        background: url("/Illustrations/Wakanda/Pantherrwakanda1.jpg");   /* i was struggling to set the original pic in the illustration file.
+        it was complete in the right part of the pic so i changed the pic by another one */
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh; } 
@@ -64,3 +65,9 @@ body{
   font-weight: normal;
   padding: 5% 0;
   }
+
+
+
+
+
+   /* i need more practice in order to master css and html!! another project will be welcomed!!! */

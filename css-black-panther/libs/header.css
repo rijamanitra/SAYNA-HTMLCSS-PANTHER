@@ -14,6 +14,9 @@
 .conteneurimageheader img{
    transition: .5s all ease-in-out;
 }
+/*setting the animation on the pic header at the left*/
+/*to be honest, i don t know how to do it! i just took the code on google!!*/
+
 .conteneurimageheader img:hover{
    filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
 }
@@ -36,3 +39,6 @@
    color:white;
  }
    
+
+
+ /* i need more practice in order to master css and html!! another project will be welcomed!!! */
