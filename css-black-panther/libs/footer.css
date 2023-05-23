@@ -57,6 +57,11 @@ footer{
 .footer3 p{
     padding-bottom: 10%;
 }
+
+.footer3 a{
+    text-decoration: none;}
+
+
 .conteneurfooterl2 {
     display: flex;flex-direction: row;
     align-items: center;margin-top: 15%;

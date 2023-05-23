@@ -111,11 +111,34 @@
            
             <div class="reponse">
                 <p>Alors, as tu la réponse?</p>
-                <input type="text" id="rep" placeholder="Réponse">
+
+                <input type="text" id="rep">
+                
             </div>
-            <div>
-                <Input type="submit" class="envoyer" value="ENVOYER"></Input>
+            <div >
+                
+                <Input type="submit" class="envoyer" onclick="openPopup()" value="ENVOYER"></Input>
+                <div class="popup"id="popup">
+                    <img  src="/Illustrations/Enigme/tick.png" alt="">
+                    <h5>Merci!</h5>
+                    <p>Votre réponse a été récue avec succès</p>
+                    <button type="button" onclick="closePopup()">ok</button>
+
+                </div>
             </div>
+<script>
+     document.getElementById("popup").classList.close("");
+
+    function openpopup(){
+        popup.classList.add("open-popup")
+    }
+
+    function closepopup( ){
+        popup.classList.remove("open-popup")
+    }
+
+</script>
+
         </section>
 
     </main>
