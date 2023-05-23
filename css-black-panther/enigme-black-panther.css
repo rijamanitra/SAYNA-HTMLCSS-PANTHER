@@ -3,7 +3,9 @@
 @import "/css-black-panther/libs/fonts.css";
 @import "/css-black-panther/libs/footer.css";
 @import "/css-black-panther/libs/header.css";
-@import "/css-black-panther/libs/animations.css";
+@import "/css-black-panther/libs/animations.cs";
+@import "/css-black-panther/libs/popup.css";
+
 
 /*background on the entire body of the page*/
 
@@ -103,6 +105,32 @@ body{
  .envoyer:hover{
   filter: drop-shadow(0 0 10px var(--blancfonce));
 }
+
+.popup{background-color: white;width:
+   200px;height: 150px;text-align: center;top: 50%;left: 50%;
+   border-radius: 30px;border-color: rgb(64, 12, 112);
+   
+}
+
+
+
+.popup img{width: 70px;margin-left: -30px;
+position: absolute;}
+
+.popup h5{  padding-top: 70px;color: rgb(6, 2, 10);}
+.popup p{
+  color: rgb(13, 2, 16);font-size: 12px;
+}
+
+.popup button{ width: 150px;background-color: rgba(154, 18, 212, 0.715);}
+
+
+.popup{transform: ;visibility:;transition: 10s;}
+.open-popup{
+  visibility: visible;
+  transform: scale(1);
+}
+
 
 
 
