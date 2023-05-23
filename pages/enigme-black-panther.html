@@ -115,29 +115,32 @@
                 <input type="text" id="rep">
                 
             </div>
+
+            <!-- setting of the html of the popup -->
             <div >
+                <button type="submit" class="btn" onclick="openPopup()">ENVOYER</button>
                 
-                <Input type="submit" class="envoyer" onclick="openPopup()" value="ENVOYER"></Input>
                 <div class="popup"id="popup">
-                    <img  src="/Illustrations/Enigme/tick.png" alt="">
+
                     <h5>Merci!</h5>
-                    <p>Votre réponse a été récue avec succès</p>
+                    <p id="re">Votre réponse a été récue avec succès</p>
+                    <img src="/Illustrations/Enigme/tick.png" alt="">
                     <button type="button" onclick="closePopup()">ok</button>
 
-                </div>
+                   </div>
             </div>
-<script>
-     document.getElementById("popup").classList.close("");
-
-    function openpopup(){
-        popup.classList.add("open-popup")
+<!-- this is the setting's javascript of  the popup
+it was difficult but i ve done it ! hip hip hourrraaaaa!!!-->
+ <script>
+    let popup = document.getElementById("popup");
+     function openPopup(){
+ popup.classList.add("open-popup");
     }
-
-    function closepopup( ){
+     function closePopup(){
         popup.classList.remove("open-popup")
-    }
+     }
+ </script>
 
-</script>
 
         </section>
 
@@ -160,11 +163,11 @@
                     <div class="footer4">
                         <h5>RETROUVEZ NOUS</h5> <br>
                         <div class="footer5">
-                            <img src="/Illustrations/Allpages/footer3.png" alt="">
-                            <img src="/Illustrations/Allpages/footer4.png" alt="">
-                            <img src="/Illustrations/Allpages/footer5.png" alt="">
-                            <img src="/Illustrations/Allpages/footer6.png" alt="">
-                        </div>                        
+                            <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="/Illustrations/Allpages/footer3.png" alt="">
+                                <img src="/Illustrations/Allpages/footer4.png" alt="">
+                                <img src="/Illustrations/Allpages/footer5.png" alt="">
+                                <img src="/Illustrations/Allpages/footer6.png" alt=""></a>
+                        </div>                          
                     </div>    
                 </div>
                 <div class="conteneurfooterl2">

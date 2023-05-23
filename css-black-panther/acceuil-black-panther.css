@@ -4,6 +4,8 @@
 @import "/css-black-panther/libs/footer.css";
 @import "/css-black-panther/libs/header.css";
 @import "/css-black-panther/libs/animations.css";
+@import "/css-black-panther/libs/popup.css";
+
 
 
 body{
@@ -225,7 +227,7 @@ body{
       text-align: center;
       margin-top: 5%;
     }
-    .envoyer a{
+    .envoyer .btn{
       color: var(--bleufonce);
       text-decoration: none;
       background-color: var(--blancfonce);
@@ -233,7 +235,7 @@ body{
       border-radius: 28px;
       transition: .25s all ease-in-out;
     }
-    .envoyer a:hover{
+    .envoyer .btn:hover{
       filter: drop-shadow(0 0 10px var(--blancfonce));
     }
 
